@@ -17,14 +17,14 @@ Base URL: [https://theloi.io.vn/csgt/index.php](https://theloi.io.vn/csgt/index.
 |-------------|--------------|-------|-------|
 | `bienso`    | String       | Biển số xe cần tra cứu. Lưu ý: cần loại bỏ khoảng trắng và ký tự đặc biệt trước khi thực hiện | `30A12345` |
 | `loaixe`    | Integer      | Loại xe (1: ô tô, 2: xe máy, 3: xe điện) | `1` |
-| `captcha`   | String       | Mã captcha để xác thực. Lưu ý: sử dụng apikey của [ocr.space](https://ocr.space/OCRAPI) có thể không chính xác và chậm hơn, có thể sử dụng apikey của [Autocaptcha.pro](https://autocaptcha.pro) để có kết quả nhanh và chính xác hơn | `K87924392288957` |
+| `captcha`   | String       | Mã captcha để xác thực. Lưu ý: sử dụng apikey của [ocr.space](https://ocr.space/OCRAPI) có thể không chính xác và chậm hơn, có thể sử dụng apikey của [Autocaptcha.pro](https://autocaptcha.pro) để có kết quả nhanh và chính xác hơn | `K879XXXX2288957` |
 
 ## Ví Dụ Yêu Cầu
 
 Dưới đây là một ví dụ về cách gửi yêu cầu GET để tra cứu thông tin biển số xe:
 
 ```
-GET https://theloi.io.vn/csgt/index.php?bienso=30A12345&loaixe=1&captcha=K87924392288957
+GET https://theloi.io.vn/csgt/index.php?bienso=30A12345&loaixe=1&captcha=K879XXXX2288957
 ```
 
 ### Phản Hồi

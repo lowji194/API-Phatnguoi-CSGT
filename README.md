@@ -19,6 +19,12 @@ Base URL: [https://theloi.io.vn/csgt/index.php](https://theloi.io.vn/csgt/index.
 | `loaixe`    | Integer      | Loại xe (1: ô tô, 2: xe máy, 3: xe điện) | `1` |
 | `captcha`   | String       | Mã captcha để xác thực. Lưu ý: sử dụng apikey của [ocr.space](https://ocr.space/OCRAPI) có thể không chính xác và chậm hơn, có thể sử dụng apikey của [Autocaptcha.pro](https://autocaptcha.pro) để có kết quả nhanh và chính xác hơn | `K879XXXX2288957` |
 
+## Lưu Ý
+
+- Đảm bảo nhập đúng mã captcha để truy cập thông tin.
+- Tham số `bienso` phải là biển số xe hợp lệ và đã loại bỏ khoảng trắng và ký tự đặc biệt.
+- Tham số `loaixe` phải nằm trong khoảng 1, 2, 3.
+
 ## Ví Dụ Yêu Cầu
 
 Dưới đây là một ví dụ về cách gửi yêu cầu GET để tra cứu thông tin biển số xe:
@@ -68,12 +74,6 @@ API sẽ trả về thông tin liên quan đến biển số xe nếu yêu cầu
     "message": "Giải captcha sai quá 5 lần"
 }
 ```
-
-## Lưu Ý
-
-- Đảm bảo nhập đúng mã captcha để truy cập thông tin.
-- Tham số `bienso` phải là biển số xe hợp lệ và đã loại bỏ khoảng trắng và ký tự đặc biệt.
-- Tham số `loaixe` phải nằm trong khoảng 1, 2, 3.
 
 ## Liên Hệ
 

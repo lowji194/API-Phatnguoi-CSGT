@@ -17,7 +17,7 @@ Base URL: [https://theloi.io.vn/csgt/index.php](https://theloi.io.vn/csgt/index.
 |-------------|--------------|-------|-------|
 | `bienso`    | String       | Biển số xe cần tra cứu. Lưu ý: cần loại bỏ khoảng trắng và ký tự đặc biệt trước khi thực hiện | `30A12345` |
 | `loaixe`    | Integer      | Loại xe (1: ô tô, 2: xe máy, 3: xe điện) | `1` |
-| `captcha`   | String       | Mã captcha để xác thực. Lưu ý: sử dụng apikey của ocr.space có thể không chính xác và chậm hơn, có thể sử dụng apikey của Autocaptcha.pro | `K87924392288957` |
+| `captcha`   | String       | Mã captcha để xác thực. Lưu ý: sử dụng apikey của [ocr.space](https://ocr.space/OCRAPI) có thể không chính xác và chậm hơn, có thể sử dụng apikey của [Autocaptcha.pro](https://autocaptcha.pro) để có kết quả nhanh và chính xác hơn | `K87924392288957` |
 
 ## Ví Dụ Yêu Cầu
 
@@ -77,4 +77,7 @@ API sẽ trả về thông tin liên quan đến biển số xe nếu yêu cầu
 
 ## Liên Hệ
 
-Nếu có bất kỳ câu hỏi hoặc cần hỗ trợ, vui lòng liên hệ [email@example.com](mailto:email@example.com).
+- 🌐 Website: [https://theloi.io.vn](https://theloi.io.vn)
+- 👤 Tác giả: Nguyễn Thế Lợi
+- 📞 SĐT: 0963 159 294
+- 👮 Facebook: [https://www.facebook.com/Lowji194](https://www.facebook.com/Lowji194)

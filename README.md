@@ -4,7 +4,7 @@
 
 ## API Endpoint
 
-Base URL: [https://theloi.io.vn/csgt/index.php](https://theloi.io.vn/csgt/index.php)
+Base URL: [https://theloi.io.vn](https://theloi.io.vn)
 
 ## Phương Thức Yêu Cầu
 

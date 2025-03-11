@@ -30,7 +30,7 @@ Base URL: [https://theloi.io.vn/csgt/index.php](https://theloi.io.vn/csgt/index.
 Dưới đây là một ví dụ về cách gửi yêu cầu GET để tra cứu thông tin biển số xe:
 
 ```
-GET https://theloi.io.vn/csgt/index.php?bienso=30A12345&loaixe=1&captcha=K879XXXX2288957
+https://theloi.io.vn/csgt/index.php?bienso=30A12345&loaixe=1&captcha=K879XXXX2288957
 ```
 
 ### Phản Hồi
